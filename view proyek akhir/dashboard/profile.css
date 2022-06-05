@@ -1,0 +1,17 @@
+body {
+    background: rgb(62, 42, 195);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ba68c8;
+}
+
+.labels {
+    font-size: 11px;
+}
+
+
+/* #col1 {
+    background: rgb(195, 144, 42);
+} */

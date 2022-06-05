@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edit Profil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 border-right">
+                <div class="col-md-12">
+                    <label class="labels">Judul</label><input type="text" class="form-control" placeholder="Judul" value="" readonly />
+                </div>
+                <div class="col-md-12">
+                    <label class="labels">Max Anggota</label><input type="text" class="form-control" placeholder="Max" value="" readonly />
+                </div>
+                <div class="col-md-12">
+                    <label class="labels">Jumlah Anggota</label><input type="text" class="form-control" placeholder="Jumlah" value="" readonly />
+                </div>
+                <div class="col-md-12">
+                    <label class="labels">Description</label>
+                    <textarea class="form-control" id="textAreaDesc" readonly rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 border-right">
+            <label class="labels">Daftar Anggota</label>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nama</th>
+                        <th scope="col">Posisi</th>
+                        <th scope="col">Info</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Andi</td>
+                        <td>Ketua</td>
+                        <td>
+                            <a class="btn btn-primary" href="profilPublik.html">Info lebih</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Satria</td>
+                        <td>Anggota</td>
+                        <td>
+                            <a class="btn btn-primary" href="profilPublik.html">Info lebih
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6 border-right">
+            <label class="labels">Daftar Permintaan</label>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nama</th>
+                        <th scope="col">Prodi</th>
+                        <th scope="col">Info</th>
+                        <th scope="col" colspan="2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Agus</td>
+                        <td>TIF</td>
+                        <td>
+                            <a class="btn btn-primary" href="profilPublik.html">Info lebih</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href="">Terima</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href="">Tolak</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Hendra</td>
+                        <td>TIF</td>
+                        <td>
+                            <a class="btn btn-primary" href="profilPublik.html">Info lebih</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href="">Terima</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href="">Tolak</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <td>
+                <a class="btn btn-primary" href="rekrutmentUpdate.html">Update</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" href="">Stop Recruitment</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" href="">Cancel Recruitment</a>
+            </td>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Portal CariLomba</title>
+
+    <!-- Box Icon -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+
+</head>
+
+<body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/js/script.js"></script>
+
+
+    <!-- Navbar -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fix-top py-3" , style="background-color: #242526">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span>Cari</span>Lomba</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <div class="collapse navbar-collapse d-flex justify-content-end align-items-center" id="navbarNav">
+                    <ul class="navbar-nav >
+              <li class=" nav-item ">
+                <a class="nav-link me-4 active " aria-current="page " href="# "
+                  >Daftar Lomba</a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link me-4 " href="# ">Pemberitahuan</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link me-4 " href="# ">Login</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link me-4 " href="# ">Daftar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icon-home "></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home  -->
+    <section class="home " id="home ">
+      <div class="container ">
+       
+        <div class="row height-100 ">
+          <div class="col-lg-6 d-flex flex-column justify-content-end content-left ">
+            <h1 class="heading ">Cari<span>Lomba</span></h1>
+          </div>
+          <p class="subheading text-white ">
+            Membantu Anda dalam Mencari Event Lomba yang Anda Butuhkan.
+          </p>
+        </div>
+        <!-- image -->
+        <div class="col-lg-5 ms-auto mb-2 mb-lg-0 d-none d-lg-block ">
+            <img src="/img/Startup_Flatline.png " class ="img-fluid position-absolute top-10 " alt="foto-1 ">
+        </div>
+      </div>
+    </section>
+
+    <!-- event lomba -->
+    <section class="event " id="lomba ">
+        <div class="container ">
+            <div class="row text-center mt-5 ">
+                <h1 class="heading ">Perlombaan</h1>
+                <p class="subheading ">Perlombaan yang dapat anda ikuti.</p>
+            </div>
+        </div>
+        <div class="row mt-4 ">
+            <div class="col-lg-11 lomba ml-5 " >
+                <h3 class="heading ">Perlombaan</h3>
+                <div class="toggle-slider ms-auto mb-5 mb-lg-0 d-flex justify-content-end ">
+                    <i class='bx bx-chevron-left' ></i>
+                    <i class='bx bx-chevron-right' ></i>
+                </div>
+            </div>
+            <div class="row mt-4 event-lomba ">
+                <div class="col ">
+                  <!-- <div class="card-lomba ml-5 ">
+                    <div class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2 ">
+                        <img src="/img/Coding _Flatline.png " class="img-fluid " alt="foto-1 ">
+                    </div>
+                    <div class="detail-lomba mt-3 ">
+                        <div class="info ">
+
+                        </div>
+                        <p class="label rounded-3 text-center py-2 ">Nama Lomba</p>
+                        <p>Deskripsi Lomba</p>
+                        <a class="btn btn-primary btn-lg " href="# " role="button ">Lihat</a>
+                    </div>
+
+                  </div> -->
+
+                   <!-- Swiper -->
+
+                    <div class="swiper mySwiperEvent ">
+                        <div class="swiper-wrapper ">
+                          <div class="swiper-slide card-lomba ml-5 ">
+                            <div class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2 ">
+                              <img src="/img/Coding _Flatline.png " class="img-fluid " alt="foto-1 ">
+                            </div>
+                                <div class="detail-lomba mt-3 ">
+                                <div div div class="info ">
+
+                                </div>
+                                <p class="label rounded-3 text-center py-2 ">Nama Lomba</p>
+                                <p>Deskripsi Lomba</p>
+                                <a class="btn btn-primary btn-lg " href="# " role="button ">Lihat</a>
+                          </div>
+
+                          </div>
+                          
+                          <div class="swiper-slide card-lomba ml-5 ">
+                            <div class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2 ">
+                              <img src="/img/Coding _Flatline.png " class="img-fluid " alt="foto-1 ">
+                            </div>
+                                <div class="detail-lomba mt-3 ">
+                                <div div div class="info ">
+
+                                </div>
+                                <p class="label rounded-3 text-center py-2 ">Nama Lomba</p>
+                                <p>Deskripsi Lomba</p>
+                                <a class="btn btn-primary btn-lg " href="# " role="button ">Lihat</a>
+                          </div>
+
+                          </div>
+
+                          <div class="swiper-slide card-lomba ml-5 ">
+                            <div class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2 ">
+                              <img src="/img/Coding _Flatline.png " class="img-fluid " alt="foto-1 ">
+                            </div>
+                                <div class="detail-lomba mt-3 ">
+                                <div div div class="info ">
+
+                                </div>
+                                <p class="label rounded-3 text-center py-2 ">Nama Lomba</p>
+                                <p>Deskripsi Lomba</p>
+                                <a class="btn btn-primary btn-lg " href="# " role="button ">Lihat</a>
+                          </div>
+
+                          </div>
+
+                          <div class="swiper-slide card-lomba ml-5 ">
+                            <div class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2 ">
+                              <img src="/img/Coding _Flatline.png " class="img-fluid " alt="foto-1 ">
+                            </div>
+                                <div class="detail-lomba mt-3 ">
+                                <div div div class="info ">
+
+                                </div>
+                                <p class="label rounded-3 text-center py-2 ">Nama Lomba</p>
+                                <p>Deskripsi Lomba</p>
+                                <a class="btn btn-primary btn-lg " href="# " role="button ">Lihat</a>
+                          </div>
+
+                          </div>
+
+                          <div class="swiper-slide card-lomba ml-5 ">
+                            <div class="img-box rounded-3 d-flex justify-content-center align-items-center py-4 px-2 ">
+                              <img src="/img/Coding _Flatline.png " class="img-fluid " alt="foto-1 ">
+                            </div>
+                                <div class="detail-lomba mt-3 ">
+                                <div div div class="info ">
+
+                                </div>
+                                <p class="label rounded-3 text-center py-2 ">Nama Lomba</p>
+                                <p>Deskripsi Lomba</p>
+                                <a class="btn btn-primary btn-lg " href="# " role="button ">Lihat</a>
+                          </div>
+
+                          </div>
+                          
+                        </div>
+                        <div class="swiper-button-next "></div>
+                        <div class="swiper-button-prev "></div>
+                        <div class="swiper-pagination "></div>
+                    </div>
+
+                </div>
+              </div>
+        </div>
+      </section>
+
+  </body>
+</html>
+
+
